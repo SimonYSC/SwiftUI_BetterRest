@@ -11,6 +11,7 @@
 		E10AB71426A083160077698A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10AB71326A083160077698A /* ContentView.swift */; };
 		E10AB71626A083180077698A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E10AB71526A083180077698A /* Assets.xcassets */; };
 		E10AB71926A083180077698A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E10AB71826A083180077698A /* Preview Assets.xcassets */; };
+		E169777A26A4A70A0054DFB3 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E169777926A4A70A0054DFB3 /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		E10AB71526A083180077698A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E10AB71826A083180077698A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E10AB71A26A083180077698A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E169777926A4A70A0054DFB3 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				E10AB71326A083160077698A /* ContentView.swift */,
 				E10AB71526A083180077698A /* Assets.xcassets */,
 				E10AB71A26A083180077698A /* Info.plist */,
+				E169777926A4A70A0054DFB3 /* SleepCalculator.mlmodel */,
 				E10AB71726A083180077698A /* Preview Content */,
 			);
 			path = BetterRest;
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E169777A26A4A70A0054DFB3 /* SleepCalculator.mlmodel in Sources */,
 				E10AB71426A083160077698A /* ContentView.swift in Sources */,
 				E10AB71226A083160077698A /* BetterRestApp.swift in Sources */,
 			);
